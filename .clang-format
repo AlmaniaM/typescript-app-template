@@ -1,0 +1,17 @@
+Language: JavaScript
+BasedOnStyle: Google
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterFunction: false
+    AfterNamespace: false
+    AfterEnum: false
+    AfterStruct: false
+    BeforeElse: false
+    SplitEmptyFunction: false
+    SplitEmptyRecord: false
+    SplitEmptyNamespace: false
+MaxEmptyLinesToKeep: 1
+SpacesInConditionalStatement: true
+JavaScriptWrapImports: true
+ColumnLimit: 150
+JavaScriptQuotes: Single

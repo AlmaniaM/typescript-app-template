@@ -1,0 +1,61 @@
+{
+    "explorer.compactFolders": false,
+    "html.format.wrapAttributes": "preserve-aligned",
+    // "editor.formatOnSave": true, // IF clang is not used uncomment
+    // "editor.formatOnPaste": true, // IF clang is not used uncomment
+    // Format js and ts files on save with `clang-format.executable`
+    // If `clang-format.executable` is not being used, these two settings should be removed otherwise it will break existing formatting.
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[csharp]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.autoIndent": "advanced",
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+        "editor.mouseWheelZoom": true
+    },
+    "clang-format.executable": "${workspaceRoot}/node_modules/.bin/clang-format",
+    // Exclude third party modules and build artifacts from the editor watchers/searches.
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/dist/**": true
+    },
+    "cSpell.language": "en",
+    "editor.formatOnSave": true,
+    "typescript.format.enable": false,
+    "javascript.format.enable": false,
+    "editor.formatOnPaste": true,
+    "cSpell.words": [
+        "Groupable"
+    ],
+    "eslint.enable": true,
+    // "editor.defaultFormatter": "xaver.clang-format",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#378fe7",
+        "activityBar.activeBackground": "#378fe7",
+        "activityBar.activeBorder": "#ab1460",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#ab1460",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#1975d2",
+        "titleBar.inactiveBackground": "#1975d299",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#1975d2",
+        "statusBarItem.hoverBackground": "#378fe7",
+        "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.color": "#1975d2"
+}

@@ -1,0 +1,10 @@
+node_modules
+src/assets/log/**.log
+src/assets/results/**.csv
+src/assets/results/**.json
+src/assets/results/**/*
+dist/**
+src/assets/log/**/*
+src/assets/config/debug/**/*
+spec/**/*.json
+spec/**/*.csv
