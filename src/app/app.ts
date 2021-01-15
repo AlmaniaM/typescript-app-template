@@ -1,5 +1,12 @@
 export class App {
   public async run(params: string[], cwd: string): Promise<void> {
-    console.log('Hello World');
+    return await new Promise((resolve, reject) => {
+      try {
+        console.log('Hello World');
+        resolve();
+      } catch ( error ) {
+        reject(error);
+      }
+    });
   }
 }
