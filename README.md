@@ -1,6 +1,8 @@
 # Description
 
-A simple TypeScript application template. It comes with Jasmine set up for testing. The testing files should to in a folder called spec at the same level as the src folder.
+A simple TypeScript application template. It comes with the following preconfigured
+- Jasmine set up for testing. The testing files should to in a folder called spec at the same level as the src folder.
+- Linting comes with clang-format. Configure this however you want in the .clang-format file.
 
 ## Requirements
 - You must run `npm install` from the command line when first opening the project.
