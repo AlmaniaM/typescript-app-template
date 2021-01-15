@@ -1,6 +1,6 @@
 # Description
 
-This project is meant to run a load test on a web api that uses JWT tokens as authentication.
+A simple TypeScript application template. It comes with Jasmine set up for testing. The testing files should to in a folder called spec at the same level as the src folder.
 
 ## Requirements
 - You must run `npm install` from the command line when first opening the project.
